@@ -1,7 +1,7 @@
-def title_alpha():
+def title_user():
     '''Строка с заглавной буквы'''
-    user = input()
-    return ' '.join(word[0].title + word[1:].lower for word in user.split())
+    return input().title
+    
 
 
 
